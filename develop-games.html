@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Development</title>
+    <link rel="stylesheet" href="develop-games.css">
+</head>
+<body>
+    <header>
+        <p>v1.0.8 - Chat Really Smells Edition</p>
+        <a href="#"><img src="buttons/button_gamedev_white.gif" alt=""></a>
+        <a href="#"><img src="buttons/button_streaming_white.gif" alt=""></a>
+        <a href="#"><img src="buttons/button_gamejam_white.gif" alt=""></a>
+    </header>
+    <hr style="height:4px;border-width:0;color:gray;background-color:gray"> 
+    <main>
+        <aside class="site-nav">
+            <ul>
+                <li><a href="#">Site Navigation</a></li>
+                <li><a href="#live-stream">Live Stream</a></li>
+                <li><a href="#">Who are you?</a></li>
+                <li><a href="#">Temporary</a></li>
+                <li><a href="#">Temporary</a></li>
+                <li><a href="#">Temporary</a></li>
+            </ul>
+        </aside>
+
+        <article>
+            <div class="live-dev-stream" id="live-stream">
+                <h1>Live Twitch DevStream</h1>
+                <!-- I somehow managed to embed the Twitch Stream to the website lessgo -->
+                <script src= "https://player.twitch.tv/js/embed/v1.js"></script>
+                <div id="SamplePlayerDivID"></div>
+                <script type="text/javascript">
+                  var options = {
+                    width: 854,
+                    height: 480,
+                    channel: "piratesoftware",
+                    // Only needed if this page is going to be embedded on other websites
+                    parent: ["embed.example.com", "othersite.example.com"]
+                  };
+                  var player = new Twitch.Player("SamplePlayerDivID", options);
+                  player.setVolume(0.5);
+                </script>
+                 
+            </div>
+            <div class="who-are-you">
+                <img src="pictures/gamedev_splash.png" width="700" height="250">
+                <h1>Who are you?</h1>
+                <p>My name is Jason Thor Hall but I just go by my middle name of Thor. I started in the games industry in 2004 on World of Warcraft Vanilla. I've worked for Blizzard Entertainment, Amazon Games Studios, the United States Department of Energy, and now Pirate Software. I've got three black badges from DEFCON, two for cryptography, and one for telephreaking. I'm a programmer, hacker, game developer, and all around giant nerd.
+
+                    I left all of that behind and started my studio Pirate Software in 2017 and I haven't looked back since. As the studio head I wear a lot of hats. I'm the programmer, writer, designer, game director, social media manager, and tons of other jobs. I feel extremely confident in running my studio and in how far we've come and how everything has turned out. Any decision that I ever make is based on analytics and research.
+                    
+                    Right now we are working on an RPG called Heartbound. It's an adventure that focuses heavily on player choice and I stream all of the development live every day on Twitch. Heartbound made it through Steam Greenlight in 11 days as the top voted submission across the entire platform. We then ran a successful Kickstarter campaign that hit 385% of its funding goal. At the time of this writing Heartbound is in Early Access on Steam and voted 97% positive out of 1,213 reviews. It's been translated into six languages and is really well liked all over the world.
+                    
+                    Listed below are all of the bits of advice that I have for anyone wanting to get into making games. Understand that this line of work is not for everyone. It's not easy. It can be boring at times. It can be soul crushing at times. Just like any other job. That being said it can also be the most fulfilling thing you've ever done in your life. There is nothing that compares to someone playing your creation and enjoying it. </p>
+            </div>
+        </article>
+    </main>
+</body>
+</html>
